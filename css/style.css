@@ -70,7 +70,7 @@ body {
 
 .dot-container {
   position: absolute;
-  left: 170px;
+  left: 160px;
   top: 520px;
 }
 .dot {
@@ -635,4 +635,15 @@ container3 {
   width: 100vw;
   height: 100vh;
   background: url(../images/slider-bg1.jpg);
+}
+
+.inner-container {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.video1 {
+  width: 760px;
+  height: 515px;
 }
