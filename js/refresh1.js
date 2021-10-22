@@ -95,5 +95,7 @@ gift.addEventListener("click", () => {
     document
       .querySelector(".container3")
       .classList.add("container3-visibility");
+    document.querySelector(".cnt1").classList.add("inner-container");
+    document.querySelector(".video").classList.add("video1");
   }, 47000);
 });
