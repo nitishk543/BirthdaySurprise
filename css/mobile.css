@@ -78,7 +78,7 @@
     width: 150px;
     height: 150px;
     top: 200px;
-    right: 60px;
+    right: 65px;
   }
 
   .giftBoxRemove {
@@ -374,5 +374,16 @@
   .slider1 img {
     width: 180px;
     height: 180px;
+  }
+  
+  .inner-container {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+
+  .video1 {
+    width: 360px;
+    height: 200px;
   }
 }
