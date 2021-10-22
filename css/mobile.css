@@ -1,0 +1,378 @@
+@media only screen and (max-width: 700px) {
+  body {
+    overflow: hidden;
+  }
+
+  .container1 {
+    width: 100vw;
+    height: 100vh;
+  }
+  .slideshow-container {
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 55px;
+    left: 86px;
+  }
+
+  .slideshow-container img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .dot-container {
+    position: absolute;
+    left: 120px;
+    top: 290px;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  .active {
+    border-color: #666;
+    width: 20px;
+    border-radius: 20px;
+  }
+
+  .currentTime {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    border-left: 4px solid red;
+    border-top: none;
+  }
+
+  .date-container {
+    margin: 0 0 5px 8px;
+  }
+
+  .clock-container {
+    margin-left: 8px;
+  }
+
+  .waiting-timer {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    top: 360px;
+    font-size: 20px;
+  }
+
+  progress {
+    position: absolute;
+    left: 80px;
+    top: 390px;
+    height: 30px;
+    width: 205px;
+  }
+
+  .jump {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    right: 60px;
+  }
+
+  .giftBoxRemove {
+    position: absolute;
+    right: 30px;
+    top: 520px;
+  }
+
+  .insideGiftText {
+    font-size: 40px;
+    top: 330px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .heart-container {
+    position: absolute;
+    left: 100px;
+    top: 700px;
+  }
+
+  .heart {
+    background-color: red;
+    display: inline-block;
+    height: 150px;
+    margin: 0 10px;
+    position: relative;
+    top: 350px;
+    transform: rotate(-45deg);
+    width: 150px;
+    /* transform: rotate(90deg); */
+    animation: animateHeart 1.2s infinite;
+    opacity: 0.6;
+  }
+
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    width: 150px;
+  }
+
+  .heart:before {
+    top: -75px;
+    left: 0;
+  }
+
+  .heart:after {
+    left: 75px;
+    top: 0;
+  }
+
+  .bdayCake {
+    position: absolute;
+    left: 10px;
+    top: 550px;
+  }
+
+  .plate {
+    position: absolute;
+    /* width: 242px;  */
+    width: 121px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #2a9d8f;
+  }
+
+  .plate:before {
+    content: "";
+    position: absolute;
+    width: 97.5px;
+    height: 45px;
+    background-color: #9c6644;
+    top: -45px;
+    left: 12.5px;
+  }
+
+  .plate:after {
+    content: "";
+    position: absolute;
+    width: 97.5px;
+    left: 12.5px;
+    height: 5px;
+    background-color: #ffd166;
+    top: -30px;
+    box-shadow: 0px 12.5px #f4978e;
+  }
+
+  .cream {
+    position: absolute;
+    background-color: #f08080;
+    width: 97.5px;
+    height: 10px;
+    left: 12.5px;
+    top: -55px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .cream:before {
+    content: "";
+    position: absolute;
+    background-color: #f08080;
+    width: 7.5px;
+    height: 15px;
+    top: 5px;
+    border-radius: 10px;
+    box-shadow: 7.5px 2.5px #9c6644, 15px -2.5px #f08080, 22.5px 0px #9c6644,
+      30px 2px #f08080, 37.5px 1.5px #9c6644, 45px -2.5px #f08080,
+      52.5px 2.5px #9c6644, 60px -2.5px #f08080, 67.5px 0px #9c6644,
+      175px 2px #f08080, 82.5px 0px #9c6644, 90px 1.5px #f08080;
+  }
+
+  .cream:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 48.75px;
+    height: 55px;
+    left: 49px;
+    border-radius: 0 10px 0 0;
+  }
+
+  .candle {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: repeating-linear-gradient(
+      #fae0e4,
+      #fae0e4 5px,
+      #ff0a54 5px,
+      #ff0a54 10px
+    );
+    box-shadow: inset -2.5px 0px rgba(0, 0, 0, 0.1);
+    top: -75.5px;
+    left: 59px;
+  }
+
+  .candle:before {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    width: 1px;
+    height: 5px;
+    top: -5px;
+    left: 2px;
+  }
+
+  .candle:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fcca46;
+    border-radius: 80% 15% 55% 50% / 55% 15% 80% 50%;
+    box-shadow: inset -1.5px 1.5px #fe7f2d;
+    transform: rotate(-45deg);
+    top: -14px;
+    left: -2.5px;
+    opacity: 0.9;
+    animation: scale 0.5s ease-out infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scaleY(1) rotate(-45deg);
+      opacity: 0.9;
+    }
+    50% {
+      transform: scaleY(0.9) rotate(-45deg);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scaleY(1) rotate(-45deg);
+      opacity: 0.9;
+    }
+  }
+
+  .flame {
+    position: absolute;
+  }
+
+  .flame:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 5px;
+    width: 59px;
+    border-radius: 0 10px 10px 0;
+    top: 0;
+    left: 61.5px;
+  }
+
+  .onef {
+    position: absolute;
+    color: #fcca46;
+    font-size: 10px;
+    top: -80px;
+    left: 50px;
+    text-shadow: 16.5px -15px #fcca46;
+    animation: flash 0.5s ease infinite alternate;
+  }
+
+  .twof {
+    position: absolute;
+    color: #fcca46;
+    font-size: 7.5px;
+    top: -90px;
+    left: 50px;
+    text-shadow: 17.5px 15px #fcca46;
+    animation: flash 0.8s ease infinite alternate;
+  }
+
+  .threef {
+    position: absolute;
+    color: #fcca46;
+    font-size: 5px;
+    top: -97.5px;
+    left: 55px;
+    text-shadow: 15px 15px #fcca46;
+    animation: flash 0.4s ease infinite alternate;
+  }
+
+  @keyframes flash {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .balloons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -100px;
+  }
+
+  .balloons span {
+    width: 50px;
+    height: 50px;
+  }
+
+  .balloons .balloonAnimation {
+    animation: move 10s linear infinite;
+    /* animation-direction: reverse; */
+  }
+
+  @keyframes move {
+    100% {
+      transform: translateY(-200vw);
+    }
+  }
+
+  .slider {
+    width: 2000px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    animation: move1 20s linear infinite;
+  }
+
+  @keyframes move1 {
+    100% {
+      transform: rotate(20deg) translateX(-500vw);
+    }
+  }
+
+  .slider img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .slider1 {
+    width: 3000px;
+    height: 100px;
+    position: absolute;
+    top: 800px;
+    animation: move2 20s linear infinite;
+    animation-direction: reverse;
+  }
+
+  @keyframes move2 {
+    100% {
+      transform: rotate(20deg) translateX(-500vw);
+    }
+  }
+
+  .slider1 img {
+    width: 180px;
+    height: 180px;
+  }
+}
