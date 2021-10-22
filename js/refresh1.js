@@ -51,9 +51,9 @@ function showSlides() {
 }
 
 var gift = document.querySelector(".gift-box");
-var audio = new Audio("../audio/GiftOpen Sound.mp3");
-var audio1 = new Audio("../audio/Crackers Sound.mp3");
-var audio2 = new Audio("../audio/Birthday Song.mp3");
+var audio = new Audio("https://drive.google.com/file/d/1ArqAVRQlRUpRsTGwgwNlYoSwMUinDwDc/view?usp=sharing");
+var audio1 = new Audio("https://drive.google.com/file/d/1L92qk7Oxin3CaZsFoOsBspCKxLUDJ9-K/view?usp=sharing");
+var audio2 = new Audio("https://drive.google.com/file/d/1ZNFkXqhb31pdnIAx1qTV_oPlL-Wcs11o/view?usp=sharing");
 
 gift.addEventListener("click", () => {
   audio.play();
